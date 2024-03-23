@@ -23,6 +23,8 @@ const addOrUpdateTask = () => {
     description: descriptionInput.value,
   };
 
+
+  
   if (dataArrIndex === -1) {
     taskData.unshift(taskObj);
   } else {
